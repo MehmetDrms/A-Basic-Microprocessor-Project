@@ -7502,4 +7502,75 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="east"/>
     </comp>
   </circuit>
+  <circuit name="DIV_1">
+    <a name="circuit" val="DIV_1"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(220,140)" to="(220,270)"/>
+    <wire from="(210,120)" to="(210,190)"/>
+    <wire from="(310,210)" to="(340,210)"/>
+    <wire from="(280,60)" to="(300,60)"/>
+    <wire from="(130,170)" to="(280,170)"/>
+    <wire from="(210,120)" to="(260,120)"/>
+    <wire from="(280,150)" to="(280,170)"/>
+    <wire from="(350,220)" to="(350,240)"/>
+    <wire from="(300,130)" to="(310,130)"/>
+    <wire from="(80,240)" to="(350,240)"/>
+    <wire from="(310,130)" to="(310,210)"/>
+    <wire from="(250,140)" to="(260,140)"/>
+    <wire from="(220,140)" to="(230,140)"/>
+    <wire from="(350,240)" to="(430,240)"/>
+    <wire from="(280,60)" to="(280,110)"/>
+    <wire from="(360,220)" to="(360,270)"/>
+    <wire from="(210,190)" to="(340,190)"/>
+    <wire from="(210,60)" to="(210,120)"/>
+    <wire from="(360,270)" to="(430,270)"/>
+    <comp lib="0" loc="(210,60)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="2" loc="(370,200)" name="Multiplexer"/>
+    <comp lib="0" loc="(130,170)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="Q"/>
+    </comp>
+    <comp lib="0" loc="(300,60)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Cin"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(80,240)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="C-Mux"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(220,270)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="0" loc="(430,270)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="OUT"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(430,240)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="C-Mux"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="3" loc="(300,130)" name="Adder">
+      <a name="width" val="1"/>
+    </comp>
+    <comp lib="1" loc="(250,140)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+  </circuit>
 </project>
