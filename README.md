@@ -6,4 +6,4 @@
   General purpose registers, Address Register, Program Counter and Data Register are 16-bit registers and Instruction Register is 24-bit registers. The left 8 bits of the Instruction Register are used to specify the opcode and the right 16 bits are used to address the memory, to get the number to be operated on or to select the register to be operated on.
 
   
-You can find more detailed explanations about the microprocessor from [this link](https://mehmetdurmus.com), and the instruction set and the machine codes according to the addressing modes from [this link](https://mehmetdurmus.com).
+You can find more detailed explanations about the microprocessor from [this link](https://mehmetdurmus.com/post/156476), and the instruction set and the machine codes according to the addressing modes from [this link](https://mehmetdurmus.com/islemci).
